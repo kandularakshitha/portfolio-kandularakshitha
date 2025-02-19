@@ -35,7 +35,7 @@
         }
         .edu-item {
     display: flex;
-    justify-content: space-between; /* Aligns <p> to the left and <span> to the right */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 5px 0;
@@ -77,8 +77,12 @@
             width: 80%;
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.15s ease, box-shadow 0.15s ease
         }
-
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(0, 123, 255, 0.5)
+        }
         h2 {
             color: #0073e6;
             font-size: 28px;
@@ -135,13 +139,11 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p class="about">Eager to join a dynamic and innovative organization where I can apply my Computer Science
-            background, analytical
-            skills, and technical expertise to drive impactful solutions. I am passionate about contributing to an agile
-            and
-            collaborative team while enhancing my skills in problem-solving, software development, and cloud
-            technologies to
-            achieve mutual growth and organizational excellence.</p>
+        <p class="about">I am a Computer Science student passionate about front-end development, Java, and OOPS concepts. 
+            I love creating interactive and efficient web applications with attractive design and smooth functionality.
+            Beyond coding, I'm interested in cognitive ability assessments and pattern-based reasoning. 
+            I enjoy solving complex problems and optimizing user experiences through innovative solutions.
+            Currently, I'm exploring more about JavaScript, React JS and enhancing my front-end skills.</p>
     </section>
 
     <section id="education">
