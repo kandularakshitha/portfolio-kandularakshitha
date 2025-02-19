@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kandula Rakshitha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .about {
+            text-align: justify;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0073e6, #003366);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .contact{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .edu-item {
+    display: flex;
+    justify-content: space-between; /* Aligns <p> to the left and <span> to the right */
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+}
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003366;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f9a826;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            background: white;
+            margin: 30px auto;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0073e6;
+            font-size: 28px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #003366;
+            color: white;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        .in {
+            font-weight: normal;
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Kandula Rakshitha</h1>
+        <p>Software Developer | Java | Front-end Development</p>
+        <div class="contact">
+            <div>
+            <a href="kandularakshitha@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></div>
+            <div><a href="https://www.linkedin.com/in/rakshitha-kandula-704191224/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a></div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="about">Eager to join a dynamic and innovative organization where I can apply my Computer Science
+            background, analytical
+            skills, and technical expertise to drive impactful solutions. I am passionate about contributing to an agile
+            and
+            collaborative team while enhancing my skills in problem-solving, software development, and cloud
+            technologies to
+            achieve mutual growth and organizational excellence.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="text-start">
+            <p><strong>Bachelor of Computer Science</strong></p>
+            <div class="edu-item">
+                <p>Vellore Institute of Technology, Amaravati, AP </p><span class="yr">(Year 2025)</span>
+            </div>
+            <p><strong>Intermediate Education</strong></p>
+            <div class="edu-item">
+                <p>Nano Junior College, Hyderabad, Telangana</p><span class="yr">(Year 2021)</span>
+            </div>
+            <p><strong>Secondary Education</strong></p>
+            <div class="edu-item">
+                <p>Slate The School, Hyderabad, Telangana </p><span class="yr">(Year 2019)</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="text-start">
+            <li><strong> Front-End Development :</strong> HTML, CSS, JavaScript, Bootstrap</li>
+            <li><strong>Development :</strong> Java, MySQL, XML</li>
+            <li><strong>Management :</strong> DBMS, MySQL</li>
+            <li><strong>Cloud Technologies :</strong> AWS, Google Cloud</li>
+            <li><strong> Development Tools :</strong> Eclipse, Android Studio, GitHub, Visual Studio Code, Figma</li>
+            <li><strong>Methodologies :</strong> Agile, Waterfall</li>
+            <li><strong> Others :</strong> MS Excel, MS Word, MS PowerPoint</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="text-start">
+            <p><strong>Driver Drowsiness Detection</strong><br>
+                - Developed a real-time driver assistance system enhancing road safety by detecting drowsiness
+                and obstacles</p>
+            <p><strong>Smart Watch with Vital Record Using Mobile Application</strong><br>
+                - Developed a prototype and
+                mobile app for monitoring and recording vital signs in real time.</p>
+            <p><strong>Banking Transaction System using Blockchain Technology</strong><br>
+                - Developed a website for
+                secure banking transaction system using blockchain technology and
+                integrating MetaMask wallet into it.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="justify-content text-start">
+        <h2 class="text-center">Experience</h2>
+        <strong>Sports Executive Member, Student Council</strong>
+        <p>• Contributed to the college magazine and represented student concerns, showcasing leadership and
+            effective teamwork, and conducted many non-technical events.<br>
+            • Actively engaged in addressing issues and promoting student interests within the council.</p>
+        <strong>Team Lead, CSI Chapter - V-Learn</strong>
+        <p>• Led a team in planning and executing technical events and hackathons, driving community engagement
+            and advancing technical skills among participants.<br>
+            • Represented club in college VTAPP technical fest<br>
+            • Organized and conducted events like Voice Vertex, Shark Tank, Great India Hackfest 2K24 (24hr- hackathon
+            (Hybrid)) multiple online Bootcamps, Snake & Coders, Technical quizzes etc.<br>
+            • Successfully coordinated activities, fostered teamwork, and enhanced the chapter’s impact within the tech
+            community.</p>
+        <strong>Co-Lead, CSI Chapter - V-Talks</strong>
+        <p>• Coordinated debates and technical discussions, promoting a culture of learning and innovation.<br>
+            • Facilitated engaging sessions that encouraged knowledge sharing and intellectual growth within the
+            community</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kandula Rakshitha. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
